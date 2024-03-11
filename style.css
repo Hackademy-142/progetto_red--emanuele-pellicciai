@@ -1,0 +1,171 @@
+
+
+body{
+    font-family: "Nova Square", sans-serif;
+    background-color: #ececec;
+    
+
+}
+
+h1{
+    margin-top: 250px;
+    color: rgba(120, 12, 12, 0.855);
+    font-size: 100px;
+    
+}
+
+.montagna{
+    height: 100vh;
+    background-image:linear-gradient(rgb(255, 255, 255),rgba(255,255,255,0.1)), url(./media/switzerland-862870_1920.jpg);
+    background-position:center;
+    position: relative;
+}
+
+.montagna2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.sfondowhite{
+    background-color: white;
+}
+
+
+.dimensionilogo{
+    width: 120px;
+    height: 120px;
+}
+.lista1{
+    list-style: none;
+}
+
+/* .immagini{
+    z-index: 2;
+} */
+
+.paragrafo{
+    position: relative;
+}
+
+.paragrafo::before{
+    content: open-quote;
+    color: rgb(91, 11, 11);
+    font-size: 70px;
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    font-family: ;
+}
+.paragrafo::after{
+    content: close-quote;
+    color: rgb(95, 12, 12);
+    font-size: 70px;
+    position: absolute;
+    right: 10px;
+    top: 35px;
+}
+
+@media screen and (max-width:767px) {
+    .paragrafo::after{
+        top: 260px;
+        right: -30px;
+    }
+}
+
+.colonne{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid rgb(85, 8, 8);
+    
+}
+
+.cerchio{
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-color: white;
+    top: 88%;
+}
+
+.bottone{
+    bottom: 200px;
+    background-color: rgb(128, 7, 7);
+    border: 0;
+    padding: 3px 15px;
+  }
+
+  .bordo{
+    border-left: 4px solid rgb(84, 5, 5);
+    position: relative;
+
+  
+  }
+  
+  .albericustom{
+    height: 70vh;
+    background-image: url(./media/trees2.png);
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  
+
+  .cerchio2::after{
+    content:" " ;
+    width: 20px;
+    height: 20px;
+    border-radius: 50% ;
+    border: 2px solid rgb(82, 5, 5);
+    background-color: white;
+    position: absolute;
+    left: -11px;
+    
+
+  }
+
+  .alberi{
+    background-image:  url(./media/single.png);
+    background-repeat: no-repeat;
+    background-position: bottom;   
+  }
+
+  .righacustom{
+    border-radius: 50px;
+    border: 2px solid red ;
+    background-color: white;
+    border: 2px solid red;
+
+  }
+.alberirossi{
+   
+    width: 100%;
+}
+
+.sez_footer{
+    background-color: darkred;
+}
+.immaginirotonde{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+}
+.immaginirotonde1{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid darkred;
+    margin: 30px;
+    padding: 8px;
+    
+}
+
+.coloretitle{
+    color: darkred;
+}
+
